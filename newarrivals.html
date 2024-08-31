@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Platform</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <div class="nav-bar">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.jpg" alt="Logo"></a>
+        </div>
+        <div class="search-box">
+            <input type="text" placeholder="Search for products">
+            <button type="submit">Search</button>
+        </div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav-icon">
+            <a target = "_blank" href="cart.html"><img src="images/shopping-cart.png" alt="Cart"></a>
+        </div>
+    </div>
+     <!-- Filter Section -->
+     <div class="filter-section">
+        <h2>Filter Products</h2>
+        <form>
+            <label for="category">Category:</label>
+            <select id="category" name="category">
+                <option value="all">All</option>
+                <option value="clothing">Clothing</option>
+                <option value="footwear">Footwear</option>
+                <option value="accessories">Accessories</option>
+            </select>
+
+            <label for="price-range">Price Range:</label>
+            <input type="range" id="price-range" name="price-range" min="0" max="1000">
+            <span id="price-range-value">0 - 100000</span>
+
+            <label for="sort">Sort By:</label>
+            <select id="sort" name="sort">
+                <option value="popularity">Popularity</option>
+                <option value="newest">Newest</option>
+                <option value="price-low-high">Price: Low to High</option>
+                <option value="price-high-low">Price: High to Low</option>
+            </select>
+
+            <button type="submit">Apply Filters</button>
+        </form>
+    </div>
+    <!-- Featured Products Section -->
+    <section class="featured-products">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <div class="card">
+                <img src="images/menjeans1.webp" alt="Product 2">
+                <h1>Mens Jeans</h1>
+                <p class="price">3999</p>
+                <p>Men Slim Mid Rise Blue Jeans</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/mentrack1.webp" alt="Product 2">
+                <h1>Mens Track</h1>
+                <p class="price">2999</p>
+                <p>Men Solid Grey Track Pants</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/mentshirt3.webp" alt="Product 2">
+                <h1>Mens T-shirt</h1>
+                <p class="price">899</p>
+                <p>Men Printed Round Neck Pure Cotton White T-Shirt</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/mentrou1.webp" alt="Product 2">
+                <h1>Mens Trouser</h1>
+                <p class="price">999</p>
+                <p>Men Regular Fit Beige Cotton Blend Trousers</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/mensblazer.webp" alt="Product 1">
+                <h1>Blazer </h1>
+                <p class="price">3167</p>
+                <p>Men Solid Single Breasted Casual Blazer  (Maroon)</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womensaree3.webp" alt="Product 2">
+                <h1>Women saree</h1>
+                <p class="price">299</p>
+                <p>Woven Kanjivaram Pure Silk, Art Silk Saree  (Brown)</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womensaree4.webp" alt="Product 2">
+                <h1>Women saree</h1>
+                <p class="price">1999</p>
+                <p>Embroidered Bollywood Art Silk Saree  (Magenta)</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womendress7.webp" alt="Product 2">
+                <h1>Women Dress</h1>
+                <p class="price">$3999</p>
+                <p>Women Two Piece Dress Brown Dress</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womendress9.webp" alt="Product 2">
+                <h1>Women Dress</h1>
+                <p class="price">2999</p>
+                <p>Women Bodycon Maroon Dress</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womensaree2.webp" alt="Product 2">
+                <h1>Women saree</h1>
+                <p class="price">999</p>
+                <p>Woven Kanjivaram Pure Silk, Art Silk Saree  (Purple)</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/Menring1.webp" alt="Product 2">
+                <h1>Mens ring</h1>
+                <p class="price">399</p>
+                <p>Combo of 2 Pcs Dragon Stainless Steel Ring</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/womenring.webp" alt="Product 2">
+                <h1>womens ring</h1>
+                <p class="price">299</p>
+                <p>Beautifully Hollow Wing Butterfly Cubic Zircon Adjustable Ring for Women</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/menspec1.webp" alt="Product 2">
+                <h1>Men Specs</h1>
+                <p class="price">299</p>
+                <p>Full Rim Square Anti Glare & Blue Cut Computer Glass For Men</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/menspec2.webp" alt="Product 2">
+                <h1>Men Specs</h1>
+                <p class="price">299</p>
+                <p>Full Rim Wayfarer Anti Glare Frame For Men</p>
+                <button>Add to Cart</button>
+            </div>
+            <div class="card">
+                <img src="images/menspec3.webp" alt="Product 2">
+                <h1>Men Specs</h1>
+                <p class="price">299</p>
+                <p>Full Rim Square Anti Glare & Blue Cut Computer Glass For Men</p>
+                <button>Add to Cart</button>
+            </div>
+           
+        </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="newsletter">
+        <h2>Join Our Newsletter</h2>
+        <p>Sign up to stay updated on the latest offers and products.</p>
+        <div class="newsletter-box">
+            <input type="email" placeholder="Enter your email">
+            <button type="submit">Subscribe</button>
+        </div>
+    </section>
+
+    <!-- Customer Reviews Section -->
+    <section class="customer-reviews">
+        <h2>What Our Customers Are Saying</h2>
+        <div class="review-grid">
+            <div class="review-card">
+                <p>"This is the best collection of items which i am searching for"</p>
+                <span>- kyle M.</span>
+            </div>
+            <div class="review-card">
+                <p>"Prices of the items are good and the collection is also good"</p>
+                <span>- Deepa k.</span>
+            </div>
+            <div class="review-card">
+                <p>"Customer service is good and the quality also good"</p>
+                <span>- Sravan A.</span>
+            </div>
+            <div class="review-card">
+                <p>"the delivery is so fast and the item quality is so good"</p>
+                <span>- kailash s.</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section about">
+                <h3>About FashionHub</h3>
+                <p>Your go-to destination for the latest in fashion. We bring you the hottest trends at unbeatable prices.</p>
+            </div>
+            <div class="footer-section links">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="footer-section social">
+                <h3>Follow Us</h3>
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 FashionHub. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
